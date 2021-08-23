@@ -33,7 +33,7 @@ export default function Layout({ children }) {
           </Container>
         </Navbar> 
       </header>
-
+      <br />
       <main>
         {children}
       </main>
