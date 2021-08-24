@@ -25,6 +25,9 @@ export default function Layout({ children }) {
                 <Link href="/posts" passHref>
                   <Nav.Link>Post</Nav.Link>
                 </Link>
+                <Link href="/jokes/random" passHref>
+                  <Nav.Link>Jokes</Nav.Link>
+                </Link>
                 <Link href="/about" passHref>
                   <Nav.Link>About</Nav.Link>
                 </Link>
